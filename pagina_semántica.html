@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Blog Personal - Novedades de HTML5</title>
+  <style>
+    body { 
+      font-family: system-ui, sans-serif; 
+      max-width: 900px; 
+      margin: 2rem auto; 
+      line-height: 1.5; 
+    }
+    header, nav, main, article, aside, section, footer { 
+      padding: 12px; 
+      border: 1px solid #ddd; 
+      margin-bottom: 12px; 
+    }
+    nav a { 
+      margin-right: 8px; 
+    }
+    .label { 
+      font-weight: bold; 
+    }
+    blockquote { 
+      font-style: italic; 
+      margin: 1em 0;
+      padding-left: 1rem;
+      border-left: 3px solid #ccc;
+    }
+    time { 
+      color: #666; 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Paso 1 y 2: Encabezado principal y navegación -->
+  <header>
+    <h1>Mi Blog Personal</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Artículos</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Paso 1 y 2: Un solo <main> con la entrada principal en <article> -->
+  <main>
+    <article>
+      <h2>Novedades de HTML5</h2>
+      
+      <!-- Paso 4: Fecha semántica con <time> -->
+      <p>Publicado el <time datetime="2024-12-20">20/12/2024</time></p>
+      
+      <!-- Paso 3: Énfasis de tono -->
+      <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p>
+      
+      <!-- Paso 5: Cita en bloque y autor con <cite> -->
+      <blockquote>
+        <p>"a uniquely portable magic" — <cite>Stephen King</cite></p>
+      </blockquote>
+      
+      <p>La <span class="label">URL</span>: <a href="https://www.example.com">https://www.example.com</a></p>
+      <p>Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.</p>
+    </article>
+  </main>
+
+  <!-- Paso 1: Barra lateral secundaria con <aside> y <section> -->
+  <aside>
+    <section>
+      <h3>Acerca de</h3>
+      <p>Desarrollador web y escritor ocasional.</p>
+    </section>
+    
+    <!-- Paso 6: Información de contacto en <address> -->
+    <section>
+      <h3>Contacto</h3>
+      <address>
+        <span class="label">Email:</span> <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>
+      </address>
+    </section>
+  </aside>
+
+  <!-- Paso 1: Pie de página -->
+  <footer>
+    <p>© 2025 Mi Sitio</p>
+    <p>Hecho con <em>café</em> y paciencia.</p>
+  </footer>
+
+</body>
+</html>
