@@ -1,1 +1,1 @@
-# M2A3_681072
+Reestructura de la página base en HTML cambiando los <div> por etiquetas semánticas como <header>, <nav>, <main>, <article>, <aside>, <time>, <address>, <blockquote> y <cite>. También se corrigió la jerarquía de los títulos y la parte del CSS.
